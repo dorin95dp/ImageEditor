@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: lightcyan;
+}
+
+.button {
+    -fx-background-color: lightseagreen;
+    -fx-font-size: 20;
+    -fx-font-family: fantasy;
+}
+
+.button:hover {
+    -fx-background-color: mediumseagreen;
+}
+
+.button:pressed {
+    -fx-background-color: darkseagreen;
+}
+
+#border {
+    -fx-padding: 20;
+    -fx-fit-to-width: false;
+    -fx-min-width: 100;
+}
